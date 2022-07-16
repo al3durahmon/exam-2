@@ -1,0 +1,53 @@
+.species__content{
+  display: flex;
+  align-items:center;
+}
+.species__list{
+  display: flex;
+  align-items:center;
+  justify-content: space-evenly;
+}
+
+.species__item--title{
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: -0.138462px;
+  color: #36536b;
+  padding-bottom: 16px;
+}
+.species__item + .species__item{
+  padding-left: 30px;
+} 
+.species__item::before{
+  display: block;
+  margin: auto;
+  content: '';
+  position: relative;
+  bottom: 32px;
+  background-image:url("../img/money.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 106px;
+  height: 106px;
+}
+.species__item:nth-child(2n)::before{
+  background-image:url("../img/trade.svg");
+}
+
+.item__text-width{
+  width: 350px;
+}
+.species__item--text{
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: -0.115385px;
+  color: #6c8294;
+}
