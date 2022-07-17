@@ -23,3 +23,22 @@ body{
 img{
   display: block;
 }
+@media only screen and (max-width:768px){
+  body{
+
+    background-image:url("../img/bg-color-tablet.png");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-position-x: 0;
+    background-position-y: 0;
+  }
+}
+@media only screen and (max-width:376px){
+  body{
+    background-image:url("../img/bg-color-mobile.png");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-position-x: 0;
+    background-position-y: 0;
+  }
+}

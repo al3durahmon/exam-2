@@ -86,33 +86,62 @@
 @media only screen and (max-width:768px){
   .about-section{
     background-position:center;
+    margin-bottom: 100px;
   }
   .about__content{
     flex-direction: column-reverse;
   }
   .about__title{
     font-weight: 400;
-  font-size: 48px;
-  line-height: 56px;
-  /* identical to box height, or 117% */
-
-  text-align: center;
-  letter-spacing: -0.369231px;  
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -0.369231px;  
+    padding-top: 56px;
   }
   .about__text{
-    font-weight: 400;
+  font-weight: 400;
   font-size: 15px;
   line-height: 28px;
-  /* or 187% */
-
   text-align: center;
   }
   .about__button{
    margin-left: 160px;
   }
   .about__company{
-    // text-align: center;
-    margin-left: 0;
-    margin-right: 32px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+}
+@media only screen and (max-width:376px){
+  .about-section{
+    margin-bottom: 80px;
+  }
+  img{
+    width: 115px;
+    height: 22px;
+  }
+  .about__item {
+    padding-left: 0;
+    padding-top: 46px;
+  }
+  .about__company{
+    padding-top: 80px;
+  }
+  .about__title{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.246154px;
+  }
+  .about__width--text{
+    width: 327px;
+  }
+  .about__button{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 80px;
   }
 }

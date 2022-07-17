@@ -58,3 +58,46 @@
 .footer__right-page a:active>.icons>path{
    fill:#da6d97;
 }
+@media only screen and (max-width:768px){
+  .footer{
+     background-image:url("../img/bg-color-footer.png");
+      background-repeat:no-repeat;
+      background-size:100%;
+      background-position-x:299px;
+  }
+  .footer__container{
+    max-width: 679px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer__content{
+    margin-right: 137px;
+  }
+}
+@media only screen and (max-width:376px){
+  .footer__inner{
+    flex-direction: column;
+  }
+  .footer__content{
+    flex-direction: column;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .footer__logo-link{
+    margin-right: 0;
+  } 
+  .footer__list{
+    flex-direction: column;
+  }
+  .footer__item + .footer__item{
+    padding-left: 0;
+  }
+  .footer__item{
+    padding-top: 31px;
+  }
+  .footer__right-page{
+    margin-bottom: 55px;
+  }
+}

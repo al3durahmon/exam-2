@@ -35,3 +35,39 @@
 .implement__text-width{
   width: 410px;
 }
+@media only screen and (max-width:768px){
+  .implement__content{
+    flex-direction: column;
+  }
+  .implement__img{
+    width: 410px;
+    height: 250px;
+    margin: auto;
+  }
+  .implement__title{
+    text-align: center;
+  }
+  .implement__text-width{
+    width: 573px;
+  }
+  .implement__text{
+    text-align: center;
+  }
+}
+@media only screen and (max-width:376px){
+  .implement__title{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.276923px;  
+  }
+  .implement__img{
+    width: 328px;
+    height: 209px;
+    margin: auto;
+  }
+  .implement__text-width{
+    width: 328px;
+  }
+}

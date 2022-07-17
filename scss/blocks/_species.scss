@@ -51,3 +51,39 @@
   letter-spacing: -0.115385px;
   color: #6c8294;
 }
+@media only screen and (max-width:768px){
+  .species__content{
+    width: 689px;
+    margin: auto;
+  }
+  .species__item{
+    width: 223px;
+  }
+  .species__item + .species__item{
+    padding-left: 10px;
+    margin: auto;
+  } 
+  .item__text-width{
+    width: 223px;
+  }
+  .species__item::before{
+    width: 88px;
+    height: 88px;
+  }
+  
+}
+
+@media only screen and (max-width:376px){
+  .species__list{
+    flex-direction: column;
+  }
+    .species__item::before{
+      margin-top: 40px;
+    }
+  
+    .species__content{
+      margin: 0;
+      width: 328px;
+      padding-left: 70px;
+    }
+}

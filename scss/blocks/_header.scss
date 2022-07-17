@@ -76,6 +76,34 @@
 .header__button--demo:active{
   background: #ba4270;
   box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+} 
+.nav__button{
+  text-align: right;
+  height: 15px;
+  line-height: 70px;
+}
+.menu{
+  margin: 0 30px 0 0;
+  display: none;
+}
+.menu a{
+  clear: right;
+  text-decoration: none;
+  color: gray;
+  margin: 0 10px;
+  line-height: 70px;
+}
+label{
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  float: right;
+  z-index: 1;
+}
+#toggle{
+  display: none;
 }
 
 @media only screen and (max-width:768px){
@@ -100,6 +128,37 @@
   }
 
   
+}
+@media only screen and (max-width:376px){
+
+  .header__navbar{
+    display: none;
+  }
+  .header__button{
+    display: none;
+  }
+  .header__inner{
+    padding-bottom: 32px;
+  }
+  label{
+    display: block;
+    cursor: pointer;
+  }
+  .menu{
+    background: #36536B;
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+  .menu a {
+    display: block;
+    border-bottom: 1px solid #eaeaeb;
+    margin: 0;
+  }
+  #toggle:checked + .menu{
+    display: block;
+    margin-top: 50px;
+  }
 }
 
 

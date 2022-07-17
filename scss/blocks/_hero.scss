@@ -80,6 +80,7 @@
   color:#36536b;
   opacity: 0.7;
 }
+
 @media only screen and (max-width:768px){
   .hero__title{
   font-family: 'DM Serif Display';
@@ -90,6 +91,10 @@
   text-align: center;
   letter-spacing: -0.369231px;
   color: #36536B;
+  }
+  .hero__picture{
+    margin: auto;
+    padding-bottom: 48px;
   }
   .hero__inner{
     display: flex;
@@ -103,5 +108,35 @@
   }
   .hero__text{
     text-align: center;
+  }
+}
+@media only screen and (max-width:376px){
+  .hero__picture{
+    width: 127px;
+    height: 280px;
+  }
+  .hero__title{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.246154px; 
+    width: 327px;
+    text-align: center;
+    margin: auto;
+  }
+  .hero__input{
+    text-align: center;
+    padding-right: 150px;
+    margin: auto;
+  }
+  .hero__button{
+    top: 76px;
+    left: 90px;
+    padding-left: 130px;
+    padding-right: 130px;
+    margin:auto;
+  }
+  .hero__text{
+    margin-top: 88px;
   }
 }
